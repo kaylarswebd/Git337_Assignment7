@@ -1,0 +1,177 @@
+body {
+  margin: 0px;
+}
+
+header {
+  height: 250px;
+  margin-top: 0%;
+  background-color: white;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+header nav ul {
+  float: none;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+  float: left;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+aside.landing img {
+  width: 100%;
+  height: 500px;
+}
+
+aside.landing h1 {
+  font-family: 'Arial Black', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 450px;
+}
+
+aside.landing h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 475px;
+  font-style: italic;
+}
+
+section.aboutus {
+  height: 450px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+section.aboutus h1 {
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+}
+
+section.aboutus .aboutustxt {
+  width: 35%;
+  float: left;
+  padding: 48px;
+}
+
+section.aboutus .aboutustxt h3 {
+  font-family: 'Arial Black', sans-serif;
+  color: #B98C48;
+}
+
+section.portfolio {
+  width: 100%;
+  height: 450px;
+  background-color: #5B866B;
+}
+
+section.portfolio .container {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+section.portfolio h1 {
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 24px;
+}
+
+section.portfolio img {
+  padding: 4px;
+}
+
+section.portfolio .row1 {
+  text-align: center;
+}
+
+section.portfolio .row2 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 450px;
+}
+
+footer .container {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+footer h1 {
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+}
+
+footer img {
+  float: left;
+}
+
+footer form {
+  text-align: center;
+}
+
+footer form input {
+  width: 35%;
+  padding: 4px;
+  margin: 4px;
+  background-color: #f8f8f8;
+}
+
+footer form .message {
+  height: 120px;
+}
+
+footer button.send {
+  background-color: #5B866B;
+  color: aliceblue;
+  float: right;
+  font-size: 20px;
+}
+
+footer button.send span {
+  font-size: 20px;
+}
+
+footer button.btt {
+  background-color: #B98C48;
+  color: aliceblue;
+  float: right;
+  font-size: 20px;
+  bottom: 5px;
+}
+
+footer button.btt span {
+  font-size: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
